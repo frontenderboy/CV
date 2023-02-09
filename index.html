@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - сайт-резюме Алексея Лагуты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card__bio">
+            <img src="img/avatar.jpg" alt="Avatar">
+
+            <div class="card__bio_item">
+                <div class="info__text">
+                    <h1>Алексей Лагута</h1>
+                    <p>Я студент в <em>польском</em> университе!</p>
+                    <p class="info__text_p">Я люблю <em>программировать</em>, всегда и везде со мной <em>музыка</em>! Обожаю путешествовать!</p>
+                </div>
+
+                <div class="soc__links">
+                    <h2>Список моих социальных сетей:</h2>
+                    <div class="soc__links_links">
+                        <a href="https://t.me/frontendersstudy" target="_blank">Telegram</a>
+                        <a href="https://www.instagram.com/lesha_laguta/" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="card bg_hobby">
+                <h2>Мои хобби:</h2>
+                <ol>
+                    <li>Программирование</li>
+                    <li>Путешествия</li>
+                    <li>Самосовершеннство</li>
+                    <li>Языки</li>
+                </ol>
+            </div>
+
+                <table class="card bg_table">
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+
+                    <tbody>
+                        <tr>
+                            <td>EPAM</td>
+                            <td>Frontend Engineer</td>
+                            <td>Soon</td>
+                        </tr>
+                        <tr>
+                            <td>EPAM</td>
+                            <td>Frontend Engineer</td>
+                            <td>Soon</td>
+                        </tr>
+                        <tr>
+                            <td>EPAM</td>
+                            <td>Frontend Engineer</td>
+                            <td>Soon</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+        <div class="section__form">
+            <div class="section__form_form">
+                <form class="form">
+                    <h1>Связаться со мной</h1>
+
+                    <div class="form__row">
+                        <div class="form__group_name">
+                            <label for="text">Ваше имя:</label>
+                            <input type="text" id="text" placeholder="Введите имя" class="input" title="Заполните это поле">
+                        </div>
+
+                        <div class="form__group_email">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="Введите email" class="input" title="Заполните это поле">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" cols="50" rows="5" placeholder="Введите сообщение..." class="input textarea"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Отправить!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
